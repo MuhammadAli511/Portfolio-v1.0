@@ -8,13 +8,13 @@
         
         
         <title>Portfolio</title>
-  <script type="module" crossorigin src="/assets/index.0af4b3b5.js"></script>
-  <link rel="stylesheet" href="/assets/index.0ac07373.css">
+  <script type="module" crossorigin src="/assets/index.3f1c80bc.js"></script>
+  <link rel="stylesheet" href="/assets/index.1e6e460a.css">
 </head>
 
 <body class="bg-c12 h-full w-full">
         <!-- Navbar for Large Screen -->
-        <div class="hidden md:block">
+        <div class="hidden lg:block">
                 <div class="grid grid-cols-2 grid-rows-1 py-2 w-full fixed bg-c6">
                         <div class="w-28 ml-10">
                                 <img alt="logo" src="/assets/logo.49adef47.png">
@@ -35,8 +35,9 @@
                         </div>
                 </div>
         </div>
-        <!-- Navbar for Small Screen --> 
-        <div class="md:hidden">
+
+        <!-- Navbar for Small Screen -->
+        <div class="navsmall lg:hidden">
                 <div class="grid grid-cols-2 grid-rows-1 py-1 w-full fixed bg-c6">
                         <div class="w-24 ml-6 mt-2">
                                 <img alt="logo" src="/assets/logo.49adef47.png">
@@ -51,24 +52,36 @@
                                 <div class="grid grid-cols-2">
                                         <div class="flex flex-col justify-start">
                                                 <div class="mb-2">
-                                                        Home
+                                                        <button id = "mobile-menu-button2">
+                                                                <a href="/index.html">Home</a>
+                                                        </button>
                                                 </div>
                                                 <div class="mb-2">
-                                                        Education
+                                                        <button id = "mobile-menu-button3">
+                                                                <a href="#education">Education</a>
+                                                        </button>
                                                 </div>
                                                 <div class="mb-2">
-                                                        Experience
+                                                        <button id = "mobile-menu-button4">
+                                                                <a href="#experience">Experience</a>
+                                                        </button>
                                                 </div>
                                         </div>
                                         <div class="grid justify-end">
                                                 <div class="mb-2">
-                                                        Projects
+                                                        <button id = "mobile-menu-button5">
+                                                                <a href="#projects">Projects</a>
+                                                        </button>
                                                 </div>
                                                 <div class="mb-2">
-                                                        Skills
+                                                        <button id = "mobile-menu-button6">
+                                                                <a href="#skills">Skills</a>
+                                                        </button>
                                                 </div>
                                                 <div class="mb-2">
-                                                        Contact
+                                                        <button id = "mobile-menu-button7">
+                                                                <a href="#contact">Contact</a>
+                                                        </button>
                                                 </div>
                                         </div>
                                 </div>
@@ -102,7 +115,7 @@
                         </div>
                 </div>
         </div>
-        
+
 
         <!-- Main Page and Social Links for Small screen -->
         <div class="flex flex-col items-center text-white">
@@ -139,9 +152,149 @@
         </div>
 
 
+        <div class="textedu" id="education">
+                <!-- Education Small Screens -->
+                <div class="mt-96 lg:hidden">
+                        <br>
+                        <div
+                                class="text-white flex justify-center text-2xl underline underline-offset-8 decoration-cyanlight mt-10">
+                                Education</div>
+                        <br>
+                        <br>
+                        <div class="flex justify-center">
+                                <span class="inline-grid grid-cols-1 text-white mx-10">
+                                        <div class="text-white">
+                                                <div class="text-lg ml-3">
+                                                        BS (CS)
+                                                </div>
+                                                <div class="text-xs ml-3">
+                                                        FAST - ISB
+                                                </div>
+                                                <div class="text-xs">
+                                                        2019 - Present
+                                                </div>
+                                        </div>
+
+                                        
+
+                                        <div class="text-white mt-100">
+                                                <div class="text-lg ml-2.5">
+                                                        Matric
+                                                </div>
+                                                <div class="text-xs ml-1">
+                                                        JARIS - RUH
+                                                </div>
+                                                <div class="text-xs ml-1">
+                                                        2015 - 2017
+                                                </div>
+                                        </div>
+                                        
+
+                                </span>
+                                <span class="flex self-start text-white ml-8">
+                                        <div class="line absolute"></div>
+                                        <div class="circle relative right-1"></div>
+                                        <div class="circle relative right-4 top-58"></div>
+                                        <div class="circle relative right-7 top-101"></div>
+                                       
+                                        
+                                </span>
+                                <span class="inline-grid grid-cols-1 mx-6">
+                                        <div class="text-white mt-56">
+                                                <div class="text-lg ml-8">
+                                                        Inter
+                                                </div>
+                                                <div class="text-xs">
+                                                        Punjab College - Isb
+                                                </div>
+                                                <div class="text-xs ml-5">
+                                                        2017 - 2019
+                                                </div>
+                                        </div>
+                                </span>
+                        </div>
+                        <div class="mb-96 text-white"></div>
+                        <div class="mb-96 text-white">Hello</div>
+                        <div class="mb-96 text-white"></div>
+                        <div class="mb-96 text-white">Hello</div>
+                </div>
 
 
 
+
+                <!-- Education Large Screens -->
+                <div class="hidden lg:block lg:mt-101">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div
+                                class="text-white flex justify-center text-6xl underline underline-offset-8 decoration-cyanlight mb-16">
+                                Education</div>
+                        <br>
+                        <br>
+                        <div class="flex justify-center">
+                                <span class="inline-grid grid-cols-1 text-white mx-10">
+                                        <div class="text-white">
+                                                <div class="text-3xl ml-1">
+                                                        BS (CS)
+                                                </div>
+                                                <div class="text-base ml-3">
+                                                        FAST - ISB
+                                                </div>
+                                                <div class="text-base">
+                                                        2019 - Present
+                                                </div>
+                                        </div>
+
+                                        
+
+                                        <div class="text-white mt-88">
+                                                <div class="text-3xl ml-1">
+                                                        Matric
+                                                </div>
+                                                <div class="text-base ml-1">
+                                                        JARIS - RUH
+                                                </div>
+                                                <div class="text-base ml-1">
+                                                        2015 - 2017
+                                                </div>
+                                        </div>
+                                        
+
+                                </span>
+                                <span class="flex self-start text-white ml-8">
+                                        <div class="line absolute"></div>
+                                        <div class="circle relative right-1"></div>
+                                        <div class="circle relative right-4 top-58"></div>
+                                        <div class="circle relative right-7 top-101"></div>
+                                       
+                                        
+                                </span>
+                                <span class="inline-grid grid-cols-1 mx-6">
+                                        <div class="text-white mt-56">
+                                                <div class="text-3xl ml-9">
+                                                        Inter
+                                                </div>
+                                                <div class="text-base">
+                                                        Punjab College - Isb
+                                                </div>
+                                                <div class="text-base ml-6">
+                                                        2017 - 2019
+                                                </div>
+                                        </div>
+                                </span>
+                        </div>
+                        <div class="mb-96 text-white"></div>
+                        <div class="mb-96 text-white">Hello</div>
+                        <div class="mb-96 text-white"></div>
+                        <div class="mb-96 text-white">Hello</div>
+                </div>
+
+                
+        </div>
+
+        
 
 </body>
 
