@@ -6,50 +6,140 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        
         <title>Portfolio</title>
-  <link rel="stylesheet" href="/assets/index.fd98e36e.css">
+  <script type="module" crossorigin src="/assets/index.0af4b3b5.js"></script>
+  <link rel="stylesheet" href="/assets/index.0ac07373.css">
 </head>
 
 <body class="bg-c12 h-full w-full">
-        <div class="hidden sm:block">
-                <div class="flex items-center justify-between mx-auto px-10 py-2 bg-c6 right-0 left-0 h-14">
-                        <div
-                                class="bg-gradient-to-r text-transparent bg-clip-text from-gradient1 via-gradient2 to-gradient3 text-4xl font-bold tracking-wider">
-                                M.Ali
+        <!-- Navbar for Large Screen -->
+        <div class="hidden md:block">
+                <div class="grid grid-cols-2 grid-rows-1 py-2 w-full fixed bg-c6">
+                        <div class="w-28 ml-10">
+                                <img alt="logo" src="/assets/logo.49adef47.png">
                         </div>
-                        <div class="flex space-x-8 text-xl text-white font-medium font-sans">
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
+                        <div class="flex flex-row justify-end text-xl text-white font-medium font-sans mx-8 my-1">
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
                                                 href="/index.html">Home</a></div>
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
-                                                href="/about.html">About</a></div>
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
-                                                href="/projects.html">Projects</a></div>
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
-                                                href="/skills.html">Skills</a></div>
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
-                                                href="/experience.html">Experience</a></div>
-                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200"><a
-                                                href="/contact.html">Contact</a></div>
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
+                                                href="#education">Education</a></div>
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
+                                                href="#experience">Experience</a></div>
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
+                                                href="#projects">Projects</a></div>
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
+                                                href="#skills">Skills</a></div>
+                                <div class="underline1 hover:text-cyanlight transition ease-linear duration-200 mr-6"><a
+                                                href="#contact">Contact</a></div>
+                        </div>
+                </div>
+        </div>
+        <!-- Navbar for Small Screen --> 
+        <div class="md:hidden">
+                <div class="grid grid-cols-2 grid-rows-1 py-1 w-full fixed bg-c6">
+                        <div class="w-24 ml-6 mt-2">
+                                <img alt="logo" src="/assets/logo.49adef47.png">
+                        </div>
+                        <div class="flex flex-row-reverse h-7 mt-2 mr-6">
+                                <button id="mobile-menu-button">
+                                        <img alt="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAUCAYAAACeXl35AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABCSURBVEhLY9TUNP3PQEfABKXpBuA+vHbtFFiAVkBLywxMD5wP6QXo7sPhb+FoKqU6GE2lVAejqZTqYDSVUhkwMAAAClMTzB4JA04AAAAASUVORK5CYII=">
+                                </button>
+
+                        </div>
+                        <div id="mobile-menu" class="absolute bottom-96 text-white bg-c6 w-full py-2 px-10 transition-all linear duration-500">
+                                <div class="grid grid-cols-2">
+                                        <div class="flex flex-col justify-start">
+                                                <div class="mb-2">
+                                                        Home
+                                                </div>
+                                                <div class="mb-2">
+                                                        Education
+                                                </div>
+                                                <div class="mb-2">
+                                                        Experience
+                                                </div>
+                                        </div>
+                                        <div class="grid justify-end">
+                                                <div class="mb-2">
+                                                        Projects
+                                                </div>
+                                                <div class="mb-2">
+                                                        Skills
+                                                </div>
+                                                <div class="mb-2">
+                                                        Contact
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+
+        <!-- Social Links for Large screen -->
+        <div class="hidden lg:flex flex-col fixed">
+                <div class="mt-64">
+                        <div class="social-color w-10 ml-8 mt-8 ">
+                                <a href="https://github.com/MuhammadAli511">
+                                        <img alt="github" src="/assets/github.8675cc36.svg">
+                                </a>
+                        </div>
+                        <div class="social-color w-10 ml-8 mt-8">
+                                <a href="https://www.linkedin.com/in/muhammad-ali-6932bb211/">
+                                        <img alt="linkedin" src="/assets/linkedin.27bb6785.svg">
+                                </a>
+                        </div>
+                        <div class="social-color w-10 ml-8 mt-8">
+                                <a href="https://twitter.com/Muhammad_Ali051">
+                                        <img alt="twitter" src="/assets/twitter.d34fdf3e.svg">
+                                </a>
+                        </div>
+                        <div class="social-color w-10 ml-8 mt-7">
+                                <a href="mailto:mohammadlai417@outlook.com">
+                                        <img alt="skype" src="/assets/mail.b03884c6.svg">
+                                </a>
                         </div>
                 </div>
         </div>
         
-        <div class="flex flex-row">
-                <div>
-                        <div class="ml-48 mt-72 text-white text-8xl font-medium">
-                                Muhammad Ali    
-                        </div>
-                        <div class="ml-48 text-white text-2xl font-normal italic">
-                                Computer Science Student    
-                        </div>
+
+        <!-- Main Page and Social Links for Small screen -->
+        <div class="flex flex-col items-center text-white">
+                <div class="shrink mt-80 text-5xl lg:text-8xl font-medium">
+                        Muhammad Ali
                 </div>
-                <div class="absolute right-48 top-48">
-                        <img alt="coding" src="/assets/images/img1.71f18c13.svg">
+                <div class="shrink mt-8 text-xl lg:text-2xl font-normal italic">
+                        Computer Science Student
                 </div>
-                <div>
-                        
+                <div class="lg:hidden">
+                        <div class="flex flex-row items-center mt-8">
+                                <div class="social-color w-10 mx-2">
+                                        <a href="https://github.com/MuhammadAli511">
+                                                <img alt="github" src="/assets/github.8675cc36.svg">
+                                        </a>
+                                </div>
+                                <div class="social-color w-10 mx-2">
+                                        <a href="https://www.linkedin.com/in/muhammad-ali-6932bb211/">
+                                                <img alt="linkedin" src="/assets/linkedin.27bb6785.svg">
+                                        </a>
+                                </div>
+                                <div class="social-color w-10 mx-2">
+                                        <a href="https://twitter.com/Muhammad_Ali051">
+                                                <img alt="twitter" src="/assets/twitter.d34fdf3e.svg">
+                                        </a>
+                                </div>
+                                <div class="social-color w-11 mx-1.5">
+                                        <a href="mailto:mohammadlai417@outlook.com">
+                                                <img alt="skype" src="/assets/mail.b03884c6.svg">
+                                        </a>
+                                </div>
+                        </div>
                 </div>
         </div>
+
+
+
 
 
 

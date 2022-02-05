@@ -1,2 +1,4 @@
 /node_modules
 tempy
+# Local Netlify folder
+.netlify

@@ -9,6 +9,9 @@ module.exports = {
         gradient2: '#5f95cb',
         gradient3: '#185ae9',
         cyanlight: '#38d6e8'
+      },
+      spacing:{
+        30: '7rem'
       }
     },
   },
