@@ -35,12 +35,22 @@
     filter: invert(50%) sepia(17%) saturate(7154%) hue-rotate(171deg) brightness(105%) contrast(107%);
   }
   .line{
+    z-index: -1;
     display: block;
     width: 4px;
-    height: 200px;
+    height: 400px;
+    background-color: #FFFFFF;
+  }
+
+  .line2{
+    z-index: -1;
+    display: block;
+    width: 4px;
+    height: 100px;
     background-color: #FFFFFF;
   }
   .circle{
+    z-index: -1;
     display: inline-block;
     width: 12px;
     height: 12px;

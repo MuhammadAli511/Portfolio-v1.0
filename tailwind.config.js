@@ -11,7 +11,9 @@ module.exports = {
         cyanlight: '#38d6e8'
       },
       spacing:{
-        30: '7rem'
+        30: '7rem',
+        34: '8.5rem',
+        68: '17rem'
       }
     },
   },
