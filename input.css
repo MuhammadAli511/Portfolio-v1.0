@@ -49,3 +49,15 @@
     background-color: #00b0ff;
     border-radius: 50%;
   }
+
+  .experience{
+    z-index: -1;
+  }
+
+  .navsmall{
+    z-index: 999;
+  }
+
+  .navbig{
+    z-index: 999;
+  }
